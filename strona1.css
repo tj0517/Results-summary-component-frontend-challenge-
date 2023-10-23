@@ -1,0 +1,355 @@
+body
+{
+
+font-family: 'Hanken Grotesk', sans-serif;
+
+}
+.prostokat
+{
+  width: 50%;
+  height: 35vw;
+  margin-left: 25%;
+  margin-right: 25%;  
+  background-color: white;
+  margin-top: 20vh;
+  border-radius: 7%;
+  box-shadow: 8px 8px 24px -15px rgba(66, 68, 90, 1);
+  font-size: 1.5vw;
+  
+}
+.pr
+{
+ height: 100%;
+ width: 50%;
+ background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+ border-radius: 7%;   
+float: left;
+}
+#kl
+{
+   border-radius: 50%;
+   background-image: linear-gradient(180deg, rgba(78, 33, 202, 1) 50%, rgba(117, 117, 117, 0) 100%);
+   height: 14vw;
+   width: 14vw;
+   color: hsla(240, 100%, 96%, 0.5);
+   font-size: 1.25vw;
+
+}
+#wynik
+{
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    padding-top: 20%;
+}
+#result
+{
+color: hsl(240, 100%, 96%,0.5);
+margin-bottom: 6%;
+padding-top: 6%;
+}
+#great
+{
+   color: white;
+   font-size:2.5vw; 
+   margin-top: 8%;
+}
+#opis
+{
+    color: hsla(240, 100%, 96%, 0.5);
+margin-bottom: 6%;
+padding-top: 6%;
+
+}
+.pr2
+{
+    height: 100%;
+    width: 45%;
+    float: right;
+padding-top: 5%;
+padding-left: 5%;
+font-weight: bold;
+
+}
+#summary
+{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 10%; 
+
+}
+#s1
+{
+height: 10%;
+width: 90%;
+margin-top: 5%;
+background-color:hsl(0, 100%, 67%,0.1) ;
+border-radius: 1vw ;
+}
+#s1>img
+{
+height: 1.75vw; 
+margin-left:4%;
+margin-right: 4%;   
+margin-top: 4%;
+float: left;
+}
+#text1
+{
+    float: left;
+    margin-top: 3.3%;
+    color:hsl(0, 100%, 67%) 
+}
+#s2
+{
+height: 10%;
+width: 90%;
+margin-top: 5%;
+background-color:hsl(39, 100%, 56%,0.1) ;
+border-radius: 1vw ;
+}
+#s2>img
+{
+height: 1.75vw; 
+margin-left:4%;
+margin-right: 4%;   
+margin-top: 4%;
+float: left;
+}
+#text2
+{
+    float: left;
+    margin-top: 3.3%;
+    color:hsl(39, 100%, 56%) 
+}
+#s3
+{
+height: 10%;
+width: 90%;
+margin-top: 5%;
+background-color:hsl(166, 100%, 37%,0.1) ;
+border-radius: 1vw ;
+}
+#s3>img
+{
+height: 1.75vw; 
+margin-left:4%;
+margin-right: 4%;   
+margin-top: 4%;
+float: left;
+}
+#text3
+{
+    float: left;
+    margin-top: 3.3%;
+    color:hsl(166, 100%, 37%);
+    padding-right: 1.2vw; 
+}
+#s4
+{
+height: 10%;
+width: 90%;
+margin-top: 5%;
+background-color:hsl(234, 85%, 45%,0.1) ;
+border-radius: 1vw ;
+}
+#s4>img
+{
+height: 1.75vw; 
+margin-left:4%;
+margin-right: 4%;   
+margin-top: 4%;
+float: left;
+}
+#text4
+{
+    float: left;
+    margin-top: 3.3%;
+    color:hsl(234, 85%, 45%);
+    padding-right: 1.5vw;
+}
+#score2
+{
+    color: gray;
+    margin-right: 2%;
+    margin-top: 4%;
+    float: right;
+}
+#score
+{
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    float: left;
+    margin-top: 4%;
+    padding-left: 5vw;
+}
+
+#continue
+{
+background-color: hsl(224, 30%, 27%);
+margin-top: 10%;
+height: 10%;
+width: 90%;
+border-radius: 20vw;
+}
+#text5
+{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    padding-top: 2%;
+}
+@media only screen and (max-width:1000px)
+{
+ .prostokat 
+ {
+width: 100%;
+margin: 0;
+height: 70vw;
+font-size: 3vw;
+ }
+ #wynik
+ {
+   font-size: 10vw; 
+ }
+ .pr
+ {
+    clear: both;
+    width: 100%;
+    height: 100%;
+ }
+ .pr2
+{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#s1
+{
+ margin-left: 5%;
+ margin-right: 5%;   
+}
+#s2
+{
+ margin-left: 5%;
+ margin-right: 5%;   
+}
+#s3
+{
+ margin-left: 5%;
+ margin-right: 5%;   
+}
+#s4
+{
+ margin-left: 5%;
+ margin-right: 5%;   
+}
+#score
+{
+  padding-left:66vw;  
+}
+#kl
+{
+    height: 28vw;
+    width: 28vw;
+    font-size: 2.5vw;
+}
+#opis
+{
+    padding-top: 3%;
+}
+#great
+{
+  margin-top: 3%;  
+  font-size: 5vw;
+}
+#s1
+{
+height: 15%;
+width: 90%;
+margin-top: 5%;
+}
+#s1>img
+{
+height: 3.5vw; 
+margin: 3.75vw;
+}
+#text1
+{
+ margin-top: 3.75vw;
+}
+#s2
+{
+height: 15%;
+width: 90%;
+margin-top: 5%;
+}
+#s2>img
+{
+height: 3.5vw; 
+margin: 3.75vw;
+}
+#text2
+{
+ margin-top: 3.75vw;
+}
+#s3
+{
+height: 15%;
+width: 90%;
+margin-top: 5%;
+}
+#s3>img
+{
+height: 3.5vw; 
+margin: 3.75vw;
+}
+#text3
+{
+ margin-top: 3.75vw;
+ padding-right:2.5vw;
+}
+#s4
+{
+height: 15%;
+width: 90%;
+margin-top: 5%;
+}
+#s4>img
+{
+height: 3.5vw; 
+margin: 3.75vw;
+}
+#text4
+{
+ margin-top: 3.75vw;
+ padding-right:3vw;
+}
+#score2
+{
+    margin-right: 2%;
+    margin-top: 3.75vw;
+}
+#score
+{
+    margin-top: 3.75vw;
+    padding-left: 50vw;
+}
+#summary
+{
+   font-size: 5vw; 
+   margin:5vw;
+}
+#continue
+{
+  margin-left: 5%;
+  margin-right: 5%;  
+  height: 15%;
+}
+#text5
+{
+    font-size: 5vw;
+    padding-top: 3%;
+}
+}
