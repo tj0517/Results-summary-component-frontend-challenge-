@@ -1,0 +1,40 @@
+#container
+{
+width: 100vw;
+height: 50vw;    
+margin: 0;
+font-family: 'Lato', sans-serif;   
+}
+#head
+{
+width: 100%;
+height: 4vw;
+font-family: 'Lato', sans-serif;   
+}
+#head a
+{
+text-decoration: none;  
+color: black;  
+}
+#logo
+{
+width: 25vw; 
+height: 100%;
+float: left;
+margin-left: 2vw;   
+}
+.kategoria
+{
+width: 14vw;
+height: 100%;
+float: left;
+text-align: center;
+font-size: 1.5vw;
+font-weight: 900;
+top: 1vw;
+border-radius: 0.25vw;
+}
+.kategoria:last-child
+{
+border: none;    
+}
